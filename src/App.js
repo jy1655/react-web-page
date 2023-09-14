@@ -1,10 +1,17 @@
+
 import logo from './logo.svg';
 import './App.css';
+import About from './About';
+import './style.css';
+import Download_page from './Downloadpage';
+import Masthead from './masthead';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Masthead />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -16,8 +23,17 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        
+        </a>  
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div><div>1</div>
+        <div>1</div>
       </header>
+      
     </div>
   );
 }
